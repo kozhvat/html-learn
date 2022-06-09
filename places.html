@@ -17,6 +17,21 @@
       crossorigin="anonymous"
     ></script>
     <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+      .card:hover {
+        background-image: 
+        url('https://i.ytimg.com/vi/F08biwz_dhU/maxresdefault.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+      }
+      .rounded-img {
+        border-radius: 1em;
+        margin-bottom: 1em;
+      }
       a {
         text-decoration: none !important;
       }
@@ -46,11 +61,49 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="places.html">прочее</a>
+              <a class="nav-link active" aria-current="page" href="places.html"
+                >прочее</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card my-5">
+            <img class="rounded-img" src="https://picsum.photos/id/1015/600" class="card-img-top" alt="фото не загрузилось">
+            <div class="card-body">
+              <h5 class="card-title">Image</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque facere totam qui vero animi. Velit eos deleniti consectetur odit modi?</p>
+              <a href="https://picsum.photos/id/1015/3000" target="_blank" class="btn btn-primary">large photo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card my-5">
+            <img class="rounded-img" src="https://picsum.photos/id/1016/600" class="card-img-top" alt="фото не загрузилось">
+            <div class="card-body">
+              <h5 class="card-title">Image</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam animi tenetur dolore fugiat. Iure doloremque nisi minus soluta. Mollitia, delectus.</p>
+              <a href="https://picsum.photos/id/1016/3000" target="_blank" class="btn btn-primary">large photo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card my-5">
+            <img class="rounded-img" src="https://picsum.photos/id/1057/600" class="card-img-top" alt="фото не загрузилось">
+            <div class="card-body">
+              <h5 class="card-title">Image</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores atque placeat nobis illo aliquid, unde vitae. Quia blanditiis incidunt beatae.</p>
+              <a href="https://picsum.photos/id/1057/3000" target="_blank" class="btn btn-primary">large photo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
   </body>
 </html>
